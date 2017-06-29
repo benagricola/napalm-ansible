@@ -1,0 +1,4 @@
+- name: Install or Update NAPALM
+  pip:
+    name:    "{{ napalm.name }}"
+    version: "{{ napalm.version }}"
